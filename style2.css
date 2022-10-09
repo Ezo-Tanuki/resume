@@ -1,0 +1,39 @@
+*{
+    margin: 10px;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: rgb(161, 221, 215);
+    background-image: url('img/patterns.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    margin-left: 10px;
+    min-width: 430px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    background-color: bisque;
+    border-radius: 20px;
+    border: 6px dashed white;
+    justify-content: space-around;
+    min-width: 600px;
+    max-width: 900px;
+}
+
+#back {
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+
+#back img{
+    height: 80px;
+}
