@@ -16,7 +16,8 @@
     align-items: center;
     justify-content: center;
     min-width: 650px;
-    background-color:rgb(128,203,196);
+    background-color:rgb(161, 221, 215);
+    /* rgb(128,203,196) old*/
     background-image: url('img/patterns.png');
     height: 600px;
 }
